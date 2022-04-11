@@ -5,7 +5,7 @@
 body {
 
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e6e6e6;
+    background-color: #6f6f6f;
 }
 
 div {
@@ -18,12 +18,11 @@ div {
 #button-mode {
     padding: 25px 100px;
     border-radius: 35px;
-    outline-color: transparent;
     border-color: transparent;
     font-size: 2em;
-    background-color: #313131;
-    color: #83aaff;
-    box-shadow: 2px 2px 25px #0051ff;
+    background-color: #ebebeb;
+    color: #1e293f;
+    box-shadow: 2px 2px 25px #363636;
     font-weight: bolder;
     transition-property: background-color transform padding border-radius;
     transition-duration: 1s;
@@ -32,10 +31,10 @@ div {
 
 #button-mode:hover {
     cursor: pointer;
-    background-color: #161616;
-    color: #6888cc;
-    box-shadow: 2px 2px 25px #003ec4;
-    transform: rotate(2deg);
+    background-color: #ebebeb;
+    color: #000000;
+    box-shadow: 2px 2px 25px #272727;
+    transform: rotate(-2deg);
     border-radius: 45px;
     
 }
